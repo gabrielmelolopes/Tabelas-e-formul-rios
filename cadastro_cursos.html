@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cursos</title>
+    <link rel="stylesheet" href="layout.css" />
+</head>
+
+<body>
+    <div class="info_cursos">
+        <table>
+            <thead class="titulo">
+                <tr>
+                    <th>Curso</th>
+                    <th>Carga Horária</th>
+                    <th>Nível</th>
+                    <th>Modalidade</th>
+                    <th>Vagas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML e CSS</td>
+                    <td>30h</td>
+                    <td>Básico</td>
+                    <td>Online</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>40h</td>
+                    <td>Intermediário</td>
+                    <td>Presencial</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Banco de Dados</td>
+                    <td>35h</td>
+                    <td>Intermediário</td>
+                    <td>Online</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <section id="formulario">
+        <form>
+            <label>
+                <p>Nome completo</p>
+                <input type="text" class="nome_c">
+                <p>Email</p>
+                <input type="text" class="email">
+                <p>Cursos</p>
+                <select>
+                    <option>HTML e CSS</option>
+                    <option>JavaScript</option>
+                    <option>Banco de Dados</option>
+                </select>
+                <p>Modalidade</p>
+                <input type="radio">Online
+                <input type="radio">Presencial
+                <p>Áreas de interesse</p>
+                <input type="checkbox">Front-end
+                <input type="checkbox">Back-end
+                <input type="checkbox">Banco de Dados
+                <input type="checkbox">Inteligência Artificial
+                <p>Comentarios adicionais</p><textarea></textarea>
+                <button type="submit">Realizar Inscrição</button>
+            </label>
+        </form>
+    </section>
+</body>
+
+</html>
